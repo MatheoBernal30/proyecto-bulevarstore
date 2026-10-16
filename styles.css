@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat";
+    color: #000;
+    background: #f5f4f4;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.logo img {
+    width: 150px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    transform: translateY(5px);
+}
+
+.navegacion {
+    display: flex;
+    gap: 20px;
+}
+
+.navegacion a {
+    background: #000;
+    color: #fff;
+    padding: 12px 18px;
+    font-family: "Cinzel";
+    font-size: 12px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: end;
+    transform: translateX(-30px);
+}
+
+.portada2 {
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+.portada {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.nuevacoleccion {
+    margin-top: 20px;
+    transform: translateY(15px);
+    color: #0c0c0c;
+    padding: 12px 18px;
+    font-family: "Cinzel";
+    font-size: 30px;
+}
+
+.camisetasnuevacoleccion {
+    display: flex;
+    justify-content: center;
+}
+
+.camisetacalvin {
+    width: 50%;
+    height: auto;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.yout {
+    width: 50%;
+    height: auto;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.blancacamisa {
+    width: 50%;
+    height: auto;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pologucci {
+    width: 50%;
+    height: auto;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.textocalvin {
+
+    width: 100%;
+    text-align: left;
+    margin-right: 100px;
+    padding: 6%;
+    font-family: "Montserrat regular";
+}
+
+.textoyout {
+    width: 100%;
+    text-align: left;
+    margin-right: 100px;
+    padding: 6%;
+}
+
+.textocamisablanca {
+    width: 100%;
+    text-align: left;
+    margin-right: 100px;
+    padding: 6%;
+}
+
+.textogucci {
+    width: 100%;
+    text-align: left;
+    margin-right: 100px;
+    padding: 6%;
+}
+
+.sobrenosotros {
+    margin-top: 20px;
+    transform: translateX(15px);
+    color: #0c0c0c;
+    padding: 12px 18px;
+    font-family: "Cinzel";
+    font-size: 30px;
+
+
+}
+
+.historiasobrenosotros {
+    width: 100%;
+    text-align: start margin-right 100px;
+    padding: 2%;
+    font-family: "Montserrat regular";
+    display: flex;
+    justify-content: center;
+
+}
+
+.marcas {
+    margin-top: 20px;
+    transform: translateY(15px);
+    color: #0c0c0c;
+    padding: 12px 18px;
+    font-family: "Cinzel";
+    font-size: 30px;
+
+}
+
+.logoyout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+.historiayout {
+    width: 100%;
+    padding: 2% 5%;
+    font-family: "Montserrat regular";
+    display: flex;
+    justify-content: center;
+}
+
+.enlaceimg {
+    display: flex;
+    justify-content: center;
+}
+
+.accesorios {
+    margin-top: 20px;
+    transform: translateY(15px);
+    color: #0c0c0c;
+    padding: 12px 18px;
+    font-family: "Cinzel";
+    font-size: 30px;
+
+}
+
+.accesoriosfinal {
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+}
+
+
+.textoreloj {
+    width: 100%;
+    text-align: left;
+    margin-right: 100px;
+    padding: 6%;
+}
+
+.textocorrea {
+    width: 100%;
+    text-align: left;
+    margin-right: 100px;
+    padding: 12%;
+}
+
+.textogorro {
+    width: 100%;
+    text-align: left;
+    margin-right: 100px;
+    padding: 12% 20%;
+
+}
+
+.accesoriosfinal img {
+    width: 400px;
+
+}
+.logo2{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    padding: 3% 3%;
+}
+.piedepagina{
+    display: flex;
+    justify-content: space-between;
+}
+.imglogo{
+    width: 100px;
+    height: 100px;
+}
+.ig{
+    width: 120px;
+    height: 100px;
+}
+.fb{
+    width: 120px;
+    height: 100px;
+}
+.imgic{
+    display: flex;
+}
+.redes{
+    font-family: "Montserrat";
+    color: #020202;
+
+}
+.redes2{
+    display: flex;
+}
+.cr1{
+width: 150px;
+height: 100px;
+}
+.env1{
+width: 150px;
+height: 100px;
+}
+.lugar1{
+width: 100px;
+height: 100px;
+}
